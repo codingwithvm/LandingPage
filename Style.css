@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: 0;
 }
-body {
-    background-color: rgb(88,156,167);
+
+/*HEADER */
+.head-11 {
+    background-color: #589CA7;
+    height: 100vh;
+}
+
+.head-11 a {
+    color: #fff;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
 }
