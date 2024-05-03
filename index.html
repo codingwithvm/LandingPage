@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="head-11">
+  <header class="head-11 vh-100">
     <!-- NAV -->
     <nav class="navbar-end bg-primary">
       <nav class="navbar navbar-expand-sm">
@@ -26,16 +26,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="main.html">Home</a>
+                <a class="nav-link text-white" href="main.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+                <a class="nav-link text-white" href="#">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link text-white" href="#">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Help</a>
+                <a class="nav-link text-white" href="#">Help</a>
               </li>
             </ul>
           </div>
@@ -43,10 +43,10 @@
       </nav>
     </nav>
     <!-- SEÇÃO DO HOME -->
-    <section class="home d-flex align-items-center container" id="home">
-      <div class="row align-items-center">
-        <h1 class="text-white text-center pt-5 pb-3">Bem vindo a Vision Future:</h1>
-        <p class="text-white">A Vision Future é uma empresa de SaaS que se destaca por suas soluções avançadas em
+    <section class="home container d-flex align-items-center h-75" id="home">
+      <div class="row">
+        <h1 class="text-dark text-center pb-4">Bem vindo a Vision Future</h1>
+        <p class="text-dark m-0">A Vision Future é uma empresa de SaaS que se destaca por suas soluções avançadas em
           gestão empresarial, análise de dados e colaboração em nuvem. Nossos produtos abrangem
           desde plataformas integradas de gestão até sistemas de análise de dados em tempo real
           e ferramentas de colaboração em nuvem. Nosso diferencial está na constante inovação,
@@ -56,8 +56,10 @@
           prioridade, com medidas rigorosas para proteger suas informações contra ameaças cibernéticas.
           Na VisionFuture, capacitamos empresas de todos os portes a prosperar no ambiente digital em
           constante evolução.</p>
-        <button type="button" class="btn btn-primary btn" href="#">Conheça nossos produtos</button>
-        <button type=button class="btn btn-secondary btn" href="#">Teste Gratis aqui! </button>
+        <div class="row w-50 m-auto mt-4">
+          <button type="button" class="btn btn-primary mb-2" href="#">Conheça nossos produtos</button>
+          <button type=button class="btn btn-secondary" href="#">Teste Gratis aqui! </button>
+        </div>
       </div>
     </section>
   </header>
@@ -65,8 +67,7 @@
     <!-- SEÇÃO DE PROJETOS -->
     <section class="projects" id="projects">
       <div class="container">
-        <div class="tituloclass">
-        <h1 class="text-center pt-5 pb-3" id="tituloclass">Nossos Planos:</h1></div>
+        <h1 class="text-center pt-5 pb-3 h2">NOSSOS PLANOS</h1>
         <p class="mx-auto text-center w-75 mb-5">Escolha o plano que melhor atende às necessidades da sua empresa e
           comece a aproveitar os benefícios hoje mesmo.</p>
         <div class="row">
@@ -75,7 +76,7 @@
               <div class="card-body bg-light">
                 <h2 class="card-title text-center my-3 h5">PLANO BÁSICO</h2>
                 <p class="card-text text-center m-0 h6">GESTÃO ESSENCIAL POR :</p>
-                <div class="text-primary price text-center">R$99,99</div>
+                <div class="text-primary fs-1 text-center">R$99,99</div>
                 <ul>
                   <li class="card-text">Ideal para pequenas empresas e startups.</li>
                   <li class="card-text">Inclui acesso à nossa plataforma de gestão empresarial básica.</li>
@@ -85,7 +86,7 @@
                 </ul>
                 <div class="text-center">
                   <a href="https://link.ton.com.br/?id=99e056a8-79de-450a-bbe2-f4c49dab3087">
-                    <button class="btn btn-primary">COMPRAR AGORA</button></a>
+                    <button class="btn btn-success">COMPRAR AGORA</button></a>
                 </div>
               </div>
             </div>
@@ -95,14 +96,17 @@
               <div class="card-body bg-primary text-white">
                 <h2 class="card-title text-center my-3 h5">PLANO AVANÇADO</h2>
                 <p class="card-text text-center m-0 h6">POTÊNCIAL MÁXIMO POR :</p>
-                <div class="text-white price text-center">R$299,99</div>
+                <div class="text-white fs-1 text-center">R$299,99</div>
                 <ul>
-                  <li class="card-text">Projetado para empresas de grande porte e corporações com requisitos complexos.</li>
+                  <li class="card-text">Projetado para empresas de grande porte e corporações com requisitos complexos.
+                  </li>
                   <li class="card-text">Inclui acesso à nossa plataforma de gestão empresarial básica.</li>
-                  <li class="card-text">Funcionalidades essenciais para gerenciar finanças, recursos humanos e vendas.</li>
+                  <li class="card-text">Funcionalidades essenciais para gerenciar finanças, recursos humanos e vendas.
+                  </li>
                   <li class="card-text">Suporte por e-mail durante o horário comercial.</li>
                   <li class="card-text">Integrações avançadas com outras ferramentas empresariais.</li>
-                  <li class="card-text">Análises de dados e relatórios personalizados para melhor tomada de decisão.</li>
+                  <li class="card-text">Análises de dados e relatórios personalizados para melhor tomada de decisão.
+                  </li>
                 </ul>
                 <div class="text-center">
                   <a href="https://link.ton.com.br/?id=b12f3a72-24ed-4925-a05c-0d09e04363d7">
@@ -116,16 +120,18 @@
               <div class="card-body bg-light">
                 <h2 class="card-title text-center my-3 h5">PLANO INTERMEDIÁRIO</h2>
                 <p class="card-text text-center m-0 h6">MAIS RECURSOS POR :</p>
-                <div class="text-primary price text-center">R$199,99</div>
+                <div class="text-primary fs-1 text-center">R$199,99</div>
                 <ul>
-                  <li class="card-text">Projetado para empresas em crescimento com necessidades operacionais diversificadas.</li>
+                  <li class="card-text">Projetado para empresas em crescimento com necessidades operacionais
+                    diversificadas.</li>
                   <li class="card-text">Inclui acesso à nossa plataforma de gestão empresarial básica.</li>
-                  <li class="card-text">Funcionalidades essenciais para gerenciar finanças, recursos humanos e vendas.</li>
+                  <li class="card-text">Funcionalidades essenciais para gerenciar finanças, recursos humanos e vendas.
+                  </li>
                   <li class="card-text">Suporte por e-mail durante o horário comercial.</li>
                 </ul>
                 <div class="text-center">
                   <a href="https://link.ton.com.br/?id=99e056a8-79de-450a-bbe2-f4c49dab3087">
-                    <button class="btn btn-primary">COMPRAR AGORA</button></a>
+                    <button class="btn btn-success">COMPRAR AGORA</button></a>
                 </div>
               </div>
             </div>
@@ -135,7 +141,7 @@
     </section>
     <!-- SEÇÃO DE DEPOIMENTOS -->
     <section id="depoimentos" class="container">
-      <div class="TituloDepoimentos"><h2 class="text-center pt-5 pb-3">Depoimentos:</h2></div>
+      <h1 class="text-center pt-5 pb-3 h2">DEPOIMENTOS</h1>
       <p class="text-center mb-5">Veja o que nossos clientes têm a dizer sobre sua experiência com a
         Vision Future.</p>
       <div class="accordion mb-4">
@@ -223,7 +229,7 @@
       </div>
     </div>
   </footer>
-  
+
 </body>
 
 </html>

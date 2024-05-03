@@ -6,29 +6,12 @@
 
 /*HEADER */
 .head-11 {
-    background-color: #589CA7;
-    height: 100vh;
+    /* background-color: #589CA7; */
+    /* height: 100vh; */
 }
 
-.head-11 a {
-    color: #fff;
-}
-
-.btn-bd-primary {
+/* .btn-bd-primary {
     --bs-btn-font-weight: 600;
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--bd-violet-bg);
-}
-
-.price {
-    font-size: 45px;
-}
-
-
-.tituloclass {
-    text-decoration: underline; 
-}
-
-.TituloDepoimentos {
-    text-decoration: underline;  
-}
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+} */
